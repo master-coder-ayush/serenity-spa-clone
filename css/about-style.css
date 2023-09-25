@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*  */
+.heading {
+    color: #2d5661;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.about {
+    width: 70%;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.about .heading {
+    color: #2d5661;
+    font-size: 50px;
+    font-weight: 500;
+    text-align: left;
+    margin-left: 10px;
+    margin-bottom: 80px;
+}
+
+.about .row {
+    display: flex;
+    /* height: 95vh; */
+}
+
+.about .row .left-content {
+    flex-basis: 50%;
+}
+
+.about .row .left-content img {
+    width: 450px;
+    height: 100vh;
+}
+
+.about .row .right-content {
+    flex-basis: 50%;
+}
+
+.about .row .right-content p {
+    color: #2d5661;
+    font-size: 14px;
+    margin-top: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    margin-right: 0;
+}
+
+.book-treatment {
+    height: 200px;
+    width: 200px;
+    border: solid #2d5661 1px;
+    border-radius: 50%;
+    text-align: center;
+    color: #2d5661;
+    font-weight: 500;
+    transition: 0.3s;
+    font-size: 12px;
+    margin-left: auto;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.book-treatment:hover {
+    background-color: #2d5661;
+    color: white;
+}
+
+/* Middle Image */
+.middle {
+    height: 110vh;
+    width: 100%;
+    margin: auto;
+    margin-top: 150px;
+    display: block;
+    background-image: url("../assets/images/image-14.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    /* opacity: 0.75    ; */
+    transition: 0.3s;
+}
+
+/* Testimonials */
+.testimonials {
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.testimonials .row {
+    display: flex;
+    margin-top: 100px;
+}
+
+.testimonials .row .left-content {
+    flex-basis: 50%;
+}
+
+
+
+.testimonials .row .right-content {
+    flex-basis: 50%;
+    width: 100%;
+}
+
+.testimonials .row .right-content img {
+    display: block;
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* Sliding testimonials */
+.customer-revs{
+    width: 50%;
+}
+
+.customer-revs h1 span {
+    font-family: "Satisfy", cursive;
+    font-size: 4rem;
+    color: #262626;
+}
+
+.customer-revs p,
+.customer-revs q {
+    font-size: 1.2rem;
+}
+
+.customer-revs q {
+    color: #2d5661;
+    font-weight: 500;
+    line-height: 30px;
+    font-size: 24px;
+}
+
+.customer-revs p {
+    color: #2d5661;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+.customer-revs {
+    margin: auto;
+    width: 70%;
+    text-align: center;
+    margin-top: 120px;
+}
+
+/* slideshow container */
+.customer-revs .slideshow-container {
+    position: relative;
+    width: 60rem;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+/* Slides */
+.customer-revs .mySlides {
+    display: none;
+    padding: 2rem 5rem 0 5rem;
+    text-align: center;
+}
+
+.customer-revs .mySlidesContainer {
+    min-height: 5rem;
+    /* padding: 3.5rem 2.5rem 2rem 3.5rem; */
+}
+
+.customer-revs .author{
+    margin-top: 100px;
+}
+
+/* next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 55%;
+    width: auto;
+    margin-top: -1.875rem;
+    padding: 1rem;
+    color: #232323;
+    font-weight: bold;
+    font-size: 2rem;
+    border-radius: 3px;
+    user-select: none;
+    transition: 0.4s;
+}
+
+.prev{
+    left: 0;
+}
+
+.next{
+    right: 0;
+}
+
+/* position the "next button" to the right */
+.customer-revs .next {
+    position: absolute;
+    right: 0;
+    border-radius: 3px;
+}
+
+/* on hover, add a black bg color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: #000;
+    /* fallback color */
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #f6eac1;
+    text-decoration: none;
+}
+
+/* the dot/bullet/indicator container */
+.customer-revs .dot-container {
+    text-align: center;
+    padding: 0 1.25rem;
+    margin-top: 30px;
+}
+
+/* the dots/bullets/indicators */
+.customer-revs .dot {
+    height: 10px;
+    width: 10px;
+    margin: 0 2px;
+    background-color: #2d5661;
+    border: white;
+    border-radius: 50%;
+    display: inline-block;
+    transition: 0.4s ease;
+}
+
+/* add bg color to the active dot/circle */
+.customer-revs .active {
+    background-color: white;
+    border: 2px solid #2d5661;
+}

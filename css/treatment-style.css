@@ -1,0 +1,121 @@
+.heading{
+    color: #2d5661;
+    font-size: 50px;
+    margin-top: 120px;
+    font-weight: 500;
+}
+
+header{
+    width: 50%;
+    display: flex;
+    margin: auto;
+    /* justify-content: center; */
+}
+
+button{
+    background-color: white;
+    color: #2d5661;
+    padding: 10px;
+    margin: auto;
+    border: solid 1px #2d5661;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 100;
+    font-family: 'Montserrat', sans-serif;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.treatments{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.treatments .heading{
+    padding-bottom: 50px;
+    margin-top: 50px;
+}
+
+.treatments p{
+    color: black;
+    font-weight: 300;
+    line-height: 1.6em;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+main section{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+main section .buttons{
+    display: flex;
+    justify-content: space-between;
+}
+
+main section .buttons .active{
+    color: white;
+    background-color: #2d5661;
+}
+
+main section .buttons .active a{
+    color: white;
+}
+
+main .services{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+main section .treatment-services{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+main section .treatment-services img{
+    opacity: 0.9;
+}
+
+main section .treatment-services img:hover{
+    opacity: 1;
+}
+
+main section .treatment-services .heading{
+    margin-top: 50px;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif !important;
+}
+
+main section .treatment-services p{
+    margin: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: black;
+}
+
+main section .treatment-services .margin-set{
+    margin-top: 0;
+}
+
+main section .treatment-services hr{
+    width: 90%;
+    margin: auto;
+    border: black 1px solid;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+}
